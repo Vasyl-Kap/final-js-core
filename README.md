@@ -1,2 +1,2 @@
-# JSCoreHome17
+# Final work on JS Core
  
