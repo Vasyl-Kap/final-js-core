@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PUZZLE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="timer-block">
+        <h1>01:00</h1>
+      </div>
+      <div class="buttons-block">
+        <button class="btn start">Start game!</button>
+        <button class="btn check" disabled>Check result</button>
+        <button type="reset" class="btn new" onclick="window.location.href=window.location.href">New game</button>
+      </div>
+      <div class="puzzle-block">
+        <div class="puzzle start-pic">
+          <div class="blocks">
+            <div class="start-block">
+              <div class="picture-1">1</div>
+            </div>
+          </div>
+          <div class="blocks">
+            <div class="start-block">
+              <div class="picture-2">2</div>
+            </div>
+          </div>
+          <div class="blocks">
+            <div class="start-block">
+              <div class="picture-3">3</div>
+            </div>
+          </div>
+          <div class="blocks">
+            <div class="start-block">
+              <div class="picture-4">4</div>
+            </div>
+          </div>
+          <div class="blocks">
+            <div class="start-block">
+              <div class="picture-5">5</div>
+            </div>
+          </div>
+          <div class="blocks">
+            <div class="start-block">
+              <div class="picture-6">6</div>
+            </div>
+          </div>
+          <div class="blocks">
+            <div class="start-block">
+              <div class="picture-7">7</div>
+            </div>
+          </div>
+          <div class="blocks">
+            <div class="start-block">
+              <div class="picture-8">8</div>
+            </div>
+          </div>
+          <div class="blocks">
+            <div class="start-block">
+              <div class="picture-9">9</div>
+            </div>
+          </div>
+          <div class="blocks">
+            <div class="start-block">
+              <div class="picture-10">10</div>
+            </div>
+          </div>
+          <div class="blocks">
+            <div class="start-block">
+              <div class="picture-11">11</div>
+            </div>
+          </div>
+          <div class="blocks">
+            <div class="start-block">
+              <div class="picture-12">12</div>
+            </div>
+          </div>
+          <div class="blocks">
+            <div class="start-block">
+              <div class="picture-13">13</div>
+            </div>
+          </div>
+          <div class="blocks">
+            <div class="start-block">
+              <div class="picture-14">14</div>
+            </div>
+          </div>
+          <div class="blocks">
+            <div class="start-block">
+              <div class="picture-15">15</div>
+            </div>
+          </div>
+          <div class="blocks">
+            <div class="start-block">
+              <div class="picture-16">16</div>
+            </div>
+          </div>
+        </div>
+        <div class="puzzle end-pic">
+          <div class="end-block"></div>
+          <div class="end-block"></div>
+          <div class="end-block"></div>
+          <div class="end-block"></div>
+          <div class="end-block"></div>
+          <div class="end-block"></div>
+          <div class="end-block"></div>
+          <div class="end-block"></div>
+          <div class="end-block"></div>
+          <div class="end-block"></div>
+          <div class="end-block"></div>
+          <div class="end-block"></div>
+          <div class="end-block"></div>
+          <div class="end-block"></div>
+          <div class="end-block"></div>
+          <div class="end-block"></div>
+        </div>
+        <div class="modal-fade">
+            <div class="modal">
+                <p class="modal-text">You still have time, you sure?<span>00:00</span></p>
+                <div class="modal-buttons">
+                    <button class="btn2 close">Close</button>
+                    <button class="btn2 check2">Check</button>
+                    <button class="btn2 close2">Close</button>
+                </div>
+                
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

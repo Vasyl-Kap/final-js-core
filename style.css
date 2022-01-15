@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.timer-block {
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.timer-block h1 {
+    font-weight: 400;
+}
+
+.buttons-block {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: rgb(238, 22, 65);
+    border: 1px solid crimson;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: crimson;
+}
+
+.btn:active {
+    box-shadow: 0 0 2px 2px rgb(238, 22, 65);
+}
+
+.btn:disabled {
+    background-color: rgb(255, 100, 131);
+}
+
+.puzzle-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.puzzle {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(236, 236, 236);
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.start-block, .end-block, .blocks {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    align-content: flex-start;
+}
+
+.picture-1 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-position: 0 0;
+    background-image: url('https://funko.com.ua/image/catalog/import_files/ec/ec8f1d71-1f3b-11eb-bb99-0cc47a95e7e1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 400%;
+    font-size: 0%;
+}
+
+.picture-2 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-position: 33% 0;
+    background-image: url('https://funko.com.ua/image/catalog/import_files/ec/ec8f1d71-1f3b-11eb-bb99-0cc47a95e7e1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 400%;
+    font-size: 0%;
+}
+
+.picture-3 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-position: 66% 0;
+    background-image: url('https://funko.com.ua/image/catalog/import_files/ec/ec8f1d71-1f3b-11eb-bb99-0cc47a95e7e1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 400%;
+    font-size: 0%;
+}
+
+.picture-4 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-position: 100% 0;
+    background-image: url('https://funko.com.ua/image/catalog/import_files/ec/ec8f1d71-1f3b-11eb-bb99-0cc47a95e7e1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 400%;
+    font-size: 0%;
+}
+
+.picture-5 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-position: 0 33%;
+    background-image: url('https://funko.com.ua/image/catalog/import_files/ec/ec8f1d71-1f3b-11eb-bb99-0cc47a95e7e1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 400%;
+    font-size: 0%;
+}
+
+.picture-6 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-position: 33% 33%;
+    background-image: url('https://funko.com.ua/image/catalog/import_files/ec/ec8f1d71-1f3b-11eb-bb99-0cc47a95e7e1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 400%;
+    font-size: 0%;
+}
+
+.picture-7 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-position: 66% 33%;
+    background-image: url('https://funko.com.ua/image/catalog/import_files/ec/ec8f1d71-1f3b-11eb-bb99-0cc47a95e7e1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 400%;
+    font-size: 0%;
+}
+
+.picture-8 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-position: 100% 33%;
+    background-image: url('https://funko.com.ua/image/catalog/import_files/ec/ec8f1d71-1f3b-11eb-bb99-0cc47a95e7e1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 400%;
+    font-size: 0%;
+}
+
+.picture-9 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-position: 0 66%;
+    background-image: url('https://funko.com.ua/image/catalog/import_files/ec/ec8f1d71-1f3b-11eb-bb99-0cc47a95e7e1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 400%;
+    font-size: 0%;
+}
+
+.picture-10 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-position: 33% 66%;
+    background-image: url('https://funko.com.ua/image/catalog/import_files/ec/ec8f1d71-1f3b-11eb-bb99-0cc47a95e7e1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 400%;
+    font-size: 0%;
+}
+
+.picture-11 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-position: 66% 66%;
+    background-image: url('https://funko.com.ua/image/catalog/import_files/ec/ec8f1d71-1f3b-11eb-bb99-0cc47a95e7e1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 400%;
+    font-size: 0%;
+}
+
+.picture-12 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-position: 100% 66%;
+    background-image: url('https://funko.com.ua/image/catalog/import_files/ec/ec8f1d71-1f3b-11eb-bb99-0cc47a95e7e1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 400%;
+    font-size: 0%;
+}
+
+.picture-13 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-position: 0 100%;
+    background-image: url('https://funko.com.ua/image/catalog/import_files/ec/ec8f1d71-1f3b-11eb-bb99-0cc47a95e7e1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 400%;
+    font-size: 0%;
+}
+
+.picture-14 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-position: 33% 100%;
+    background-image: url('https://funko.com.ua/image/catalog/import_files/ec/ec8f1d71-1f3b-11eb-bb99-0cc47a95e7e1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 400%;
+    font-size: 0%;
+}
+
+.picture-15 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-position: 66% 100%;
+    background-image: url('https://funko.com.ua/image/catalog/import_files/ec/ec8f1d71-1f3b-11eb-bb99-0cc47a95e7e1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 400%;
+    font-size: 0%;
+}
+
+.picture-16 {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-position: 100% 100%;
+    background-image: url('https://funko.com.ua/image/catalog/import_files/ec/ec8f1d71-1f3b-11eb-bb99-0cc47a95e7e1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 400%;
+    font-size: 0%;
+}
+
+.modal-fade {
+	display: none;
+}
+
+.modal-fade::before {
+    content: '';
+	background: #000;
+	position: fixed; 
+	left: 0;
+	top: 0;
+	width: 100%; 
+	height: 100%;
+	opacity: 0.7;
+	z-index: 9999;
+}
+
+.modal {
+	position: fixed;
+    top: 10%;
+    left: 50%;
+    padding: 10px 20px;
+    width: 520px;
+    height: 150px;
+    margin-right: -50%;
+    transform: translate(-50%,0);
+    background: #fff;
+    border: 1px solid rgb(94, 94, 94);
+    border-radius: 4px;
+    z-index: 99999;
+    opacity: 1;
+}
+
+.modal-text {
+    margin: 20px 0 10px 0;
+    font-size: 27px;
+    text-align: center;
+}
+
+.modal-buttons {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.btn2{
+    width: 55px;
+    height: 35px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: rgb(238, 22, 65);
+    border: 1px solid crimson;
+    border-radius: 5px;
+}
+
+.btn2:hover {
+    background-color: crimson;
+}
+
+.btn2:active {
+    box-shadow: 0 0 2px 2px rgb(238, 22, 65);
+}
+
+.close {
+    margin-right: 10px;
+}
+
+.check2 {
+    background-color: rgb(0, 148, 0);
+    border: 1px solid green; 
+}
+
+.check2:hover {
+    background-color: green;
+}
+
+.check2:active {
+    box-shadow: 0 0 2px 2px rgb(0, 148, 0);
+}
+
+.close2 {
+    display: none;
+}
